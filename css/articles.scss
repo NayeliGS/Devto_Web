@@ -1,0 +1,161 @@
+.nav-link:hover {
+  background-color: white;
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+
+
+.card-body2:hover{
+  cursor: pointer;
+}
+
+.nav-lik_hv {
+  font-weight: bold;
+  color: black;
+}
+
+.zone__hashtag{
+  padding-left: 40px;
+}
+
+.reactions__comments{
+  padding-left: 20px;
+}
+
+.nav-lik_hv:hover {
+  color: blue;
+  font-weight: bold;
+  background-color: white;
+}
+
+
+ @media (max-width: 991px) {
+    .navbar-nav {
+      display: flex;
+      flex-direction: row !important;
+      justify-content: flex-start;
+    }
+
+    .nav-item {
+      margin-right: 15px;
+    }
+  }
+
+.photo__profile{
+  width: 38px;
+  height: 38px;
+  border-radius: 40px;
+ 
+ }
+
+ .bestCSS{
+  width: 100%;
+  height: 268px;
+  border-radius: 6px;
+ }
+
+ .Cards_1{
+  border-radius: 8px;
+  background-color: #ffffff;
+  margin-right: 10px;
+  
+  
+ }
+
+ .Cards_2{
+  background-color: #ffffff;
+  border-radius: 8px;
+ }
+
+ .Cards_3{
+  background-color: #ffffff;
+  border-radius: 8px;
+ }
+
+ .Cards_4{
+  background-color: #ffffff;
+  border-radius: 8px;
+ }
+
+ .Cards_5{
+  background-color: #ffffff;
+  border-radius: 8px;
+ }
+.photo__profile:hover{
+  cursor: pointer;
+}
+
+.data__profile{
+  padding-top: 22px;
+}
+
+ .day__nameprofile{
+  font-size:smaller;
+  padding-top: 2px;
+ }
+
+ .day__nameprofile:hover{
+  cursor: pointer;
+ }
+
+ .min__read{
+  font-size:smaller;
+ }
+ .reactions__comments{
+ width: 320px;
+ }
+
+ .name__profile{
+  font: size 20px;;
+  font-weight: 500;
+ }
+
+ .comment{
+  font-size:smaller;
+ }
+
+ .text__comment {
+  background-color: #f5f5f5;
+
+ }
+
+ .card__secondary__tittle{
+  font-weight:500;
+  font-size:xx-large;
+  padding-left: 40px;
+}
+
+ .card__secondary__tittle:hover{
+  background-color: white;
+  text-decoration: none;
+  color: blue;
+  cursor: pointer;
+  font-weight: 50px;
+ }
+
+ .cards_hashtag:hover{
+  background-color: rgb(236, 229, 229);
+  text-decoration: none;
+  color: black;
+  border-radius: 20px;
+ }
+.icon__bg{
+  background-color: rgb(236, 229, 229);
+  border-radius: 10px;
+}
+ .box__images:hover{
+  background-color: rgb(236, 229, 229);
+  text-decoration: none;
+  border-radius: 20px;
+ }
+
+ .zone__comments:hover{
+  cursor: pointer;
+ }
+
+ .zone__reading:hover{
+  cursor: pointer;
+ }

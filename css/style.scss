@@ -1,0 +1,22 @@
+
+
+*{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana,sans-serif;
+}
+
+@import "header.css";
+@import "left_aside.css";
+@import "center.css";
+@import "right_aside.css";
+@import "footer.css";
+@import"articles.css";
+@import"editpost.css";
+
+
+@media only screen and (max-width: 600px) {
+    @import "header-mobile.css";
+    @import "left_aside-mobile.css";
+    @import "center-mobile.css";
+    @import "right_aside-mobile.css";
+    @import "footer-mobile.css";
+  }

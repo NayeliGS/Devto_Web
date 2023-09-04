@@ -1,0 +1,177 @@
+.container_nav {
+  height: 60px;
+  margin-left: 144px;
+}
+.container_nav .nav__left {
+  width: 30%;
+  justify-content: center;
+}
+.container_nav .nav__left .nav_create {
+  margin-top: 10px;
+  margin-left: 16px;
+}
+.container_nav .nav__center {
+  width: 32%;
+  justify-content: end;
+  padding-bottom: 8px;
+}
+.container_nav .nav__center .nav_weight {
+  margin-top: 24px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+.container_nav .nav__center .nav_weight_low {
+  margin-top: 24px;
+  margin-left: 4px;
+}
+.container_nav .nav__right {
+  width: 40%;
+  justify-content: end;
+  padding-right: 7px;
+}
+
+.nav_weight:hover {
+  background-color: #e2e3f3;
+  color: #4f4cb6;
+}
+
+.nav_weight_low:hover {
+  background-color: #e2e3f3;
+  color: #4f4cb6;
+}
+
+.main_editPost {
+  justify-content: end;
+  width: 100%;
+  height: 90%;
+  padding-right: 14px;
+}
+.main_editPost .main_left {
+  border: 2px solid #efefef;
+  background-color: #ffffff;
+  border-radius: 9px;
+  width: 810px;
+  height: 780px;
+  margin-right: 12px;
+}
+.main_editPost .main_left .button_first {
+  height: 66px;
+  margin-left: 60px;
+  display: flex;
+  align-items: end;
+}
+.main_editPost .main_left .button_first .btn_color_add {
+  margin-left: 6px;
+  color: black;
+  border-color: darkgrey;
+  width: 164px;
+  height: 39px;
+  font-weight: 500;
+}
+.main_editPost .main_left .tittle_post {
+  margin-left: 60px;
+  height: 134px;
+  margin-top: 17px;
+}
+.main_editPost .main_left .tittle_post .tittle_post_letter {
+  font-size: 48px;
+  font-weight: 800;
+  color: dimgrey;
+}
+.main_editPost .main_left .iconos_post {
+  background-color: #f9f9f9;
+  height: 57px;
+  display: flex;
+  justify-content: space-between;
+}
+.main_editPost .main_left .iconos_post .iconos_left {
+  width: 64%;
+  margin-left: 41px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 9px;
+}
+.main_editPost .main_left .iconos_post .iconos_right {
+  width: 16%;
+  justify-content: center;
+  align-items: center;
+}
+.main_editPost .main_left .body_post {
+  padding: 18px 58px 50px;
+  height: 490px;
+}
+.main_editPost .btn_color_add:hover {
+  background-color: #e2e3f3;
+}
+.main_editPost .boton_add:hover {
+  background-color: #e2e3f3;
+  border: #212eb9;
+}
+.main_editPost .crayons-icon:hover {
+  background-color: #e2e3f3;
+  color: #4f4cb6;
+  border-radius: 4px;
+}
+.main_editPost .main_right {
+  width: 34%;
+  height: 500px;
+  margin-right: 23px;
+}
+.main_editPost .main_right .main_right_contour {
+  width: 330px;
+  padding-top: 82px;
+}
+.main_editPost .main_right .main_right_contour .main_weight {
+  font-weight: 700;
+  font-size: large;
+}
+.main_editPost .main_right .main_right_contour .main_weight_low {
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer_editpost {
+  padding-top: 28px;
+  padding-left: 370px;
+}
+.footer_editpost .buttons_last {
+  width: 500px;
+  justify-content: center;
+}
+.footer_editpost .buttons_last .btn_publish {
+  background-color: #3b49df;
+  color: #ffffff;
+  font-weight: 600;
+  width: 90px;
+  height: 42px;
+}
+.footer_editpost .buttons_last .btn_color {
+  color: black;
+}
+.footer_editpost .buttons_last .btn_color:hover {
+  background-color: #e2e3f3;
+  color: #4f4cb6;
+}
+.footer_editpost .buttons_last .btn_publish:hover {
+  background-color: #212eb9;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.edit_textArea {
+  width: 94%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-weight: 800;
+  font-size: 43px;
+}
+
+.body_textArea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: 20px;
+}/*# sourceMappingURL=editpost.css.map */

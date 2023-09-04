@@ -1,0 +1,130 @@
+body {
+  background-color: #f5f5f5;
+}
+
+#navbarNav {
+  width: 40%;
+}
+
+.navbar-toggler {
+  padding: 2%;
+  margin-right: 10px;
+  border: none !important;
+}
+
+.aside__left__items:hover {
+  background-color: #e2e3f3;
+  color: blue;
+  border-radius: 7px;
+  text-decoration: underline;
+}
+
+.left_second_icons:hover {
+  background-color: #e2e3f3;
+  color: blue;
+  border-radius: 7px;
+  text-decoration: underline;
+}
+
+.left_icons--last {
+  width: 100%;
+  height: 48px;
+  margin-top: 27px;
+}
+
+.left_icons--last__box {
+  width: 100%;
+  height: 30px;
+  display: block;
+}
+
+.icons--last {
+  width: 33px;
+  height: 33px;
+  padding: 4px;
+}
+
+.icons--last:hover {
+  background-color: #e2e3f3;
+  color: black;
+  border-radius: 7px;
+  text-decoration: underline;
+}
+
+.aside__left__tags {
+  width: 96%;
+  height: 100px;
+  padding-top: 30px;
+}
+
+.tags__letters__icon {
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+}
+
+.tags__letters__icon:hover {
+  background-color: #e2e3f3;
+  color: blue;
+  border-radius: 7px;
+  text-decoration: underline;
+}
+
+.button__points:hover {
+  background-color: #e2e3f3;
+  color: blue;
+  border-radius: 7px;
+  text-decoration: underline;
+}
+
+.btn-close:hover {
+  background-color: #e2e3f3;
+  color: #e2e3f3;
+  border: none;
+  text-decoration: underline;
+}
+
+.navbar-toggler:hover {
+  background-color: #e2e3f3;
+  color: #e2e3f3;
+  border-radius: 7px;
+  text-decoration: underline;
+}
+
+.aside__left__cards {
+  height: 800px;
+}
+
+.aside__left__card1 {
+  border: 2px solid #efefef;
+  border-radius: 9px;
+  background-color: #fafafa;
+  height: 36%;
+}
+
+.aside__left__card2 {
+  border: 2px solid #efefef;
+  background-color: #fafafa;
+  border-radius: 9px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.card-body2 {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imagen__forem {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.aside__left__ol {
+  padding-top: 9px;
+}/*# sourceMappingURL=left_aside.css.map */
