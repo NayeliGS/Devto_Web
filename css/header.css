@@ -70,6 +70,7 @@ a {
   color: rgb(85, 76, 255);
   border: 1px solid rgb(85, 76, 255);
   border-radius: 5px;
+  font-weight: bold;
   padding: 7px 15px;
   margin: 0px 8px 0px 0px;
 }
@@ -115,15 +116,16 @@ body {
 }
 
 .main__container_lead_right {
-  padding-top: 12px;
+  padding: 0px !important;
 }
 
 .general__right-container {
   width: 100%;
   padding: 8px;
-  background-color: #ffffff;
-  border: 2px solid #efefef !important;
+  background-color: #f5f5f5;
+  border: 1px solid #c0c0c0 !important;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .listing-dd {
@@ -257,7 +259,7 @@ footer li {
     align-items: center;
     text-align: center;
   }
-  .header__container_nav_buttons-create {
+  .header__container_nav_buttons-login {
     display: none;
   }
   .header__container_nav_buttons-search {

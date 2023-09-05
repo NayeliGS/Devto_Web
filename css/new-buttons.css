@@ -1,0 +1,51 @@
+.header__container_nav_buttons-login {
+  color: black;
+  border-radius: 5px;
+  padding: 7px 15px;
+  margin: 0px 8px 0px 0px;
+}
+
+.header__container_nav_buttons-login:hover {
+  color: rgb(85, 76, 255);
+  background-color: rgb(219, 224, 254);
+  text-decoration: underline;
+}
+
+.header__container_nav_buttons-login2 {
+  color: black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 7px 15px;
+  margin: 5px 8px 0px 0px;
+}
+
+.header__container_nav_buttons-login2:hover {
+  color: rgb(85, 76, 255);
+  background-color: rgb(219, 224, 254);
+  text-decoration: underline;
+}
+
+.header__container_nav_buttons-create2 {
+  color: rgb(85, 76, 255);
+  border: 1px solid rgb(85, 76, 255);
+  border-radius: 5px;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  padding: 7px 15px;
+  margin: 0px 8px 0px 0px;
+}
+
+.header__container_nav_buttons-create2:hover {
+  color: #FFFFFF;
+  background-color: rgb(85, 76, 255);
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 770px) {
+  .header__container_nav_buttons-create2 {
+    flex-wrap: nowrap;
+    font-size: 0.9rem;
+  }
+}/*# sourceMappingURL=new-buttons.css.map */
