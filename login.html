@@ -32,7 +32,53 @@
         class="header__container_nav container-xxl d-flex justify-content-between navbar navbar-expand-md"
       >
         <!--Se agrego d-flex justify-content-between navbar navbar-expand-md Nayeli START-->
+        <div class="header__container_nav_search">
+          <!--Hambuger Menu START-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--Hambuger Menu END-->
+          <img
+            class="header__container_nav_search_logo"
+            src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png"
+            alt=""
+          />
 
+          <div class="header__container_nav_search_txt">
+            <input
+              class="header__container_nav_search_txt-input"
+              type="text"
+              placeholder="Search..."
+            />
+            <btn class="header__container_nav_search_txt-search" src="" alt=""
+              ><a
+                href=""
+                class="header_container_nav_buttons-search link_search-mobile"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  class="crayons-icon c-btn__icon"
+                  focusable="false"
+                >
+                  <path
+                    d="m18.031 16.617 4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"
+                  ></path>
+                </svg> </a
+            ></btn>
+          </div>
+        </div>
         <div class="header__container_nav_buttons">
           <a
             href=""
@@ -86,7 +132,8 @@
                 type="submit"
                 class="crayons-btn crayons-btn--l crayons-btn--brand-apple crayons-btn--icon-left grow-1 whitespace-nowrap"
               >
-                <img class="img__logo"
+                <img
+                  class="img__logo"
                   src="./img_login/svg apple.svg"
                   width="24"
                   height="24"
@@ -102,7 +149,8 @@
                 type="submit"
                 class="crayons-btn crayons-btn--l crayons-btn--brand-forem crayons-btn--icon-left grow-1 whitespace-nowrap"
               >
-                <img class="img__logo"
+                <img
+                  class="img__logo"
                   src="./img_login/Smiley withe.png"
                   width="24"
                   height="24"
@@ -170,7 +218,8 @@
             <form action="#" method="post">
               <div class="form-group">
                 <label for="email">Email:</label>
-                <input class="start__sesion-boxes"
+                <input
+                  class="start__sesion-boxes"
                   type="text"
                   id="email"
                   name="email"
@@ -180,7 +229,8 @@
               </div>
               <div class="form-group">
                 <label for="password">Password:</label>
-                <input class="start__sesion-boxes"
+                <input
+                  class="start__sesion-boxes"
                   type="password"
                   id="password"
                   name="password"
