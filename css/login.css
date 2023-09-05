@@ -94,7 +94,7 @@
 }
 
 /* Estilo para el icono de Apple */
-img {
+.img__logo {
   width: 24px;
   height: 24px;
   margin-right: 8px;
