@@ -1,0 +1,25 @@
+/* Navbar & Buttns */
+.header__login-btn {
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  color: rgb(64, 64, 64);
+  border-radius: 5px;
+  padding: 7px 15px;
+  margin: 0px 8px 0px 0px;
+  max-width: 100%;
+  overflow-wrap: normal;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.header__login-btn:hover {
+  background: rgb(85, 76, 255);
+  text-decoration: underline;
+  color: #fff;
+}
+
+.header__create-account-btn {
+  font-weight: 500 !important;
+}
+/* Navbar & Buttns */
