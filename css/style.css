@@ -5,6 +5,8 @@
 @import "footer.css";
 @import "articles.css";
 @import "editpost.css";
+@import "new-buttons.css";
+@import "left-login.css";
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
