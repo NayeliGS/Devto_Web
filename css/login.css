@@ -23,3 +23,55 @@
   font-weight: 500 !important;
 }
 /* Navbar & Buttns */
+
+.crayons-layout {
+    font-size: 1rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 100%;
+    padding: 1rem;
+    color: rgb(23, 23, 23);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .crayons-card {
+    border-radius: 1rem;
+    background: rgb(255, 255, 255);
+  
+    overflow-wrap: anywhere;
+    padding: 3rem;
+    margin: 0;
+    width: 640px;
+  }
+  
+  .registration {
+    padding: 3rem;
+    margin: 0 auto;
+    width: 640px;
+  }
+  
+  .registration__title {
+    display: flex;
+    justify-content: center;
+    color: rgb(23, 23, 23);
+    font-size: 2rem;
+    line-height: 1.25;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 800;
+  }
+  
+   .registration__content {
+  
+    text-align: center;
+    margin-bottom: 1.5rem;
+  } 
+  
+  
+  .registration__description {
+    color: rgb(64, 64, 64);
+    font-size: 1rem;
+  }
