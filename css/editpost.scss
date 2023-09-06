@@ -60,21 +60,19 @@
             margin-left: 60px;
             display: flex;
             align-items:end;
-          
-           
-
-            
-        .btn_color_add{
-            margin-left: 6px;
-            color: black;
+        .btn_color_add {
+           margin-left: 6px;
             border-color: darkgrey;
             width: 164px;
             height: 39px;
-            font-weight: 500;
+          
+             
+        }  
+        
+
         }
 
-
-        }
+       
 
         
 
@@ -261,4 +259,6 @@
    
 
 }
+
+.btn_color_add::placeholder { color:black; font-weight: bold; }
  
