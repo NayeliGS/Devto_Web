@@ -175,11 +175,11 @@
 }
 
 .btn_color_add::-moz-placeholder {
-  color: red;
+  color: black;
   font-weight: bold;
 }
 
 .btn_color_add::placeholder {
-  color: red;
+  color: black;
   font-weight: bold;
 }/*# sourceMappingURL=editpost.css.map */

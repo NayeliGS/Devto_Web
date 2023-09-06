@@ -1,4 +1,4 @@
-const button = document.querySelector('#send');
+const button = document.querySelector('#sendPost');
 
 console.log(button)
 button.addEventListener('click', async(event) => {
@@ -29,7 +29,7 @@ button.addEventListener('click', async(event) => {
 })
 
 const createData = async(post) =>{
-    fetch(`http://localhost:3005/publicaciones`,{
+    fetch(`http://localhost:3000/publicaciones`,{
         method: "POST",
         headers: {
             "Content-type": "application/json;charset=UTF-8"

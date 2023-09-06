@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let postHtml = "";
     let postRigthHtml = "";
     let postHtmlButtonEdit = "";
-    fetch(`http://localhost:3005/publicaciones/${postId}`)
+    fetch(`http://localhost:3000/publicaciones/${postId}`)
     .then((response) => response.json())
     .then((publicacion) => {
         console.log(publicacion);

@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const cardsContainer = document.getElementById("cards-container")
     let cardsHtml = ""
 
-    fetch("http://localhost:3005/publicaciones")
+    fetch("http://localhost:3000/publicaciones")
         .then((response) => response.json())
         .then((publicaciones) => {
             publicaciones.map((publicacion) => {
