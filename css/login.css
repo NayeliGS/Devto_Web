@@ -268,4 +268,58 @@ button:hover {
 .text__position {
   display: inline-block; /* Hace que el texto se comporte como bloque en línea */
   padding: 0 10px; /* Agrega espacio entre el texto y las líneas */
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.crayons-field--checkbox {
+  gap: 0.5rem;
+  border-radius: 0.375;
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.crayons-field--checkbox:hover {
+  cursor: pointer;
+  background-color: #f9f4f4;
+  border-radius: 5px;
+}
+
+.crayons-field {
+  flex-flow: column;
+  font-size: 1rem;
+}
+
+.crayons-field .crayons-checkbox {
+  margin: 0.1875rem;
+}
+
+.crayons-checkbox:checked {
+  background-color: rgb(59, 73, 223);
+  border-color: rgb(59, 73, 223);
+  color: rgb(255, 255, 255);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.crayons-field--checkbox .crayons-field__label {
+  margin-top: 0;
+  padding-right: 0.5rem;
+}
+
+.fw-normal {
+  font-weight: 400;
+}
+
+.crayons-field__label {
+  color: rgb(23, 23, 23);
 }/*# sourceMappingURL=login.css.map */
