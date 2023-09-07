@@ -267,6 +267,7 @@ body{
     display: flex;
     align-items: center;
     gap: 12px;
+    padding-top: 22px;
 }
 .box_size
 {
@@ -870,4 +871,10 @@ body{
             }
         }
     }
+}
+
+.post_contenido{
+    height: 140px;
+    padding-top: 34px;
+    font-size:x-large;
 }
