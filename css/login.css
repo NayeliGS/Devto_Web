@@ -1,0 +1,240 @@
+@charset "UTF-8";
+/* Navbar & Buttns */
+.header__login-btn {
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem !important;
+  color: rgb(64, 64, 64);
+  border-radius: 5px;
+  padding: 7px 15px;
+  margin: 0px 8px 0px 0px;
+  max-width: 100%;
+  overflow-wrap: normal;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500 !important;
+}
+
+.header__login-btn:hover {
+  background: rgb(85, 76, 255);
+  text-decoration: underline;
+  color: #fff;
+}
+
+.header__create-account-btn {
+  font-weight: 500 !important;
+}
+
+/* Navbar & Buttns */
+.crayons-layout {
+  font-size: 1rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 100%;
+  padding: 1rem;
+  color: rgb(23, 23, 23);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.crayons-card {
+  border-radius: 1rem;
+  background: rgb(255, 255, 255);
+  overflow-wrap: anywhere;
+  padding: 3rem;
+  margin: 0;
+  width: 640px;
+}
+
+.registration {
+  padding: 3rem;
+  margin: 0 auto;
+  width: 640px;
+}
+
+.registration__title {
+  display: flex;
+  justify-content: center;
+  color: rgb(23, 23, 23);
+  font-size: 2rem;
+  line-height: 1.25;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.registration__content {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.registration__description {
+  color: rgb(64, 64, 64);
+  font-size: 1rem;
+}
+
+/* Registration Bottons */
+/* Estilo para el botón */
+.crayons-btn {
+  width: 100%;
+  max-width: 544px;
+  /* Ancho máximo de 544px */
+  height: 48px;
+  /* Altura de 48px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  /* Tamaño de fuente para el texto */
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Estilo para el icono de Apple */
+.img__logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  /* Espacio entre el icono y el texto */
+}
+
+/* Estilo para el texto "Continue with Apple" */
+.button-text {
+  text-align: center !important;
+}
+
+/* Estilo responsive */
+@media (max-width: 544px) {
+  .crayons-btn {
+    max-width: 100%;
+    /* El botón ocupa todo el ancho disponible en pantallas pequeñas */
+  }
+}
+form {
+  margin-top: 0em;
+  background-color: rgb(255, 255, 255);
+}
+
+.flex {
+  display: flex;
+  margin-top: 10px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.grow-1 {
+  flex-grow: 1;
+}
+
+.crayons-btn--icon-left {
+  padding-left: 0.75rem;
+  border-width: 0px;
+}
+
+.crayons-btn--brand-apple {
+  background: #000;
+  color: #fff;
+}
+
+.crayons-btn--brand-apple:hover {
+  background: #1b1b1b;
+  color: #fff;
+}
+
+.crayons-btn--brand-forem {
+  background: #0a3e4a;
+  color: #fff;
+}
+
+.crayons-btn--brand-forem:hover {
+  background: #000;
+  color: #fff;
+}
+
+.crayons-btn--brand-github {
+  background: #24292e;
+  color: #fff;
+}
+
+.crayons-btn--brand-github:hover {
+  background: #000;
+  color: #fff;
+}
+
+.crayons-icon {
+  fill: currentColor;
+  margin-right: 0.5rem;
+  vertical-align: bottom;
+}
+
+.crayons-btn--brand-twitter {
+  background: #1da1f2;
+  color: #fff;
+}
+
+.crayons-btn--brand-twitter:hover {
+  background: #0096f2;
+  color: #fff;
+}
+
+.crayons-btn {
+  border-width: 0px;
+  position: relative;
+  display: inline-block;
+  border-radius: 0.375rem;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: cubic-bezier(0.17, 0.67, 0.5, 0.71) 100ms;
+  border: 0px solid;
+  overflow-wrap: normal;
+  height: 48px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.start__sesion-boxes {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}/*# sourceMappingURL=login.css.map */
