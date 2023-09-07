@@ -21,9 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
             />
           </div>
           <div class="mid__container_all">
-            <div
-              class="mid__container_all_title pe-sm-3 pt-sm-3 pe-sm3 ps-sm-3 pe-md-4 pt-md-4 ps-md-4 pe-xl-5 pt-xl-5 ps-xl-5"
-            >
+            <div class="mid__container_all_title pe-sm-3 pt-sm-3 pe-sm3 ps-sm-3 pe-md-4 pt-md-4 ps-md-4 pe-xl-5 pt-xl-5 ps-xl-5">
               <div class="mid__container_all_title_name">
                 <img
                   class="mid__container_all_title_name_img"
@@ -93,381 +91,66 @@ document.addEventListener("DOMContentLoaded", () => {
                 </a>
               </div>
               <div class="mid__container_all_tools">
-                <div class="mid__container_all_tools_cont">
-                  <div class="first mid__container_all_tools_cont_part">
-                    <div class="mid__container_all_tools_cont_part_inside">
-                      <span>Tools, Trends and Extenstions (8 Part Series)</span>
-                    </div>
+              <div class="mid__container_all_tools_cont">
+                <div class="first mid__container_all_tools_cont_part">
+                  <div class="mid__container_all_tools_cont_part_inside">
+                    <span>Tools, Trends and Extenstions (8 Part Series)</span>
                   </div>
-                  <div class="mid__container_all_tools_cont_part">
-                    <div class="mid__container_all_tools_cont_part_inside">
-                      <span
-                        class="mid__container_all_tools_cont_part_inside_number"
-                        ><span>1</span></span
-                      >
-                      <span>Juicy Tailwindcss Tools For Everyone</span>
-                    </div>
+                </div>
+                <div class="mid__container_all_tools_cont_part">
+                  <div class="mid__container_all_tools_cont_part_inside">
+                    <span
+                      class="mid__container_all_tools_cont_part_inside_number"
+                      ><span>1</span></span
+                    >
+                    <span>Juicy Tailwindcss Tools For Everyone</span>
                   </div>
-                  <div class="mid__container_all_tools_cont_part">
-                    <div class="mid__container_all_tools_cont_part_inside">
-                      <span
-                        class="mid__container_all_tools_cont_part_inside_number"
-                        ><span>2</span></span
-                      >
-                      <span
-                        >Project Management Tools To Boost Your
-                        Productivity</span
-                      >
-                    </div>
+                </div>
+                <div class="mid__container_all_tools_cont_part">
+                  <div class="mid__container_all_tools_cont_part_inside">
+                    <span
+                      class="mid__container_all_tools_cont_part_inside_number"
+                      ><span>2</span></span
+                    >
+                    <span
+                      >Project Management Tools To Boost Your
+                      Productivity</span
+                    >
                   </div>
-                  <div class="mid__container_all_tools_cont_part">
-                    <div class="mid__container_all_tools_cont_part_inside">
-                      <span
-                        class="mid__container_all_tools_cont_part_inside_number"
-                        ><span>...</span></span
-                      >
-                      <span>4 more parts...</span>
-                    </div>
+                </div>
+                <div class="mid__container_all_tools_cont_part">
+                  <div class="mid__container_all_tools_cont_part_inside">
+                    <span
+                      class="mid__container_all_tools_cont_part_inside_number"
+                      ><span>...</span></span
+                    >
+                    <span>4 more parts...</span>
                   </div>
-                  <div class="mid__container_all_tools_cont_part">
-                    <div class="mid__container_all_tools_cont_part_inside">
-                      <span
-                        class="mid__container_all_tools_cont_part_inside_number"
-                        ><span>7</span></span
-                      >
-                      <span>AI Tools Like Chat GPT</span>
-                    </div>
+                </div>
+                <div class="mid__container_all_tools_cont_part">
+                  <div class="mid__container_all_tools_cont_part_inside">
+                    <span
+                      class="mid__container_all_tools_cont_part_inside_number"
+                      ><span>7</span></span
+                    >
+                    <span>AI Tools Like Chat GPT</span>
                   </div>
-                  <div class="mid__container_all_tools_cont_part last">
-                    <div class="mid__container_all_tools_cont_part_inside">
-                      <span
-                        class="mid__container_all_tools_cont_part_inside_number mid__container_all_tools_cont_part_inside_number_last"
-                        ><span>8</span></span
-                      >
-                      <span>🔥${publicacion.titulo}</span>
-                    </div>
+                </div>
+                <div class="mid__container_all_tools_cont_part last">
+                  <div class="mid__container_all_tools_cont_part_inside">
+                    <span
+                      class="mid__container_all_tools_cont_part_inside_number mid__container_all_tools_cont_part_inside_number_last"
+                      ><span>8</span></span
+                    >
+                    <span>${publicacion.titulo}</span>
                   </div>
                 </div>
               </div>
-              <div class="mid__container_all_description">
-                <p>
-                  As a web developer, keeping up with the latest tools and
-                  technologies can be challenging. However, with CSS being a
-                  fundamental part of front-end web development, having access
-                  to the right CSS tools can make a significant difference in
-                  the productivity and creativity of a developer.
-                </p>
-                <p>
-                  Whether you are a beginner or an experienced developer, there
-                  are always new and exciting CSS tools and libraries to explore
-                  that can help you streamline your workflow and create stunning
-                  designs.
-                </p>
-                <p>
-                  In this article, we will look at some of the hottest CSS tools
-                  available to developers today, including frameworks,
-                  libraries, and utilities, to help you stay ahead of the curve
-                  and take your CSS skills to the next level.
-                </p>
-              </div>
-              <div class="mid__container_all_table_of_content">
-                <span class="mid__container_all_table_of_content_title"
-                  >🕔Table of contents</span
-                >
-                <ul class="mid__container_all_table_of_content_title_ul">
-                  <li><a href="">Neumorphism</a></li>
-                  <li><a href="">Animista</a></li>
-                  <li><a href="">Animated Background</a></li>
-                  <li><a href="">Spin Kit</a></li>
-                  <li><a href="">Flexplorer</a></li>
-                  <li><a href="">Grid Generator</a></li>
-                  <li><a href="">Layout Generator</a></li>
-                  <li><a href="">Shaddows Brumm</a></li>
-                  <li><a href="">Glassmorphism</a></li>
-                  <li><a href="">Cubic-Bezier</a></li>
-                  <li><a href="">Haikei</a></li>
-                  <li><a href="">Conclusion</a></li>
-                </ul>
-              </div>
-              <div class="mid__container_all_topics">
-                <span class="mid__container_all_topics_title">Neumorphism</span>
-                <img
-                  class="mid__container_all_topics_title_img"
-                  src="./img/post/Neumorphism.gif"
-                  alt=""
-                />
-                <p class="mid__container_all_topics_paragraph">
-                  <a class="mid__container_all_topics_paragraph_link" href=""
-                    >Neumorphism.io</a
-                  >
-                  is a website that showcases the neumorphism design trend, also
-                  known as soft UI or neo-skeuomorphism. It generates soft-UI
-                  CSS styles using shadows.
-                </p>
-              </div>
-              <div class="mid__container_all_topics">
-                <span class="mid__container_all_topics_title">Animista</span>
-                <img
-                  class="mid__container_all_topics_title_img"
-                  src="./img/post/Animista.gif"
-                  alt=""
-                />
-                <p class="mid__container_all_topics_paragraph">
-                  <a class="mid__container_all_topics_paragraph_link" href=""
-                    >Neumorphism.io</a
-                  >
-                  is a website that provides a collection of CSS animations and
-                  animation presets that can be easily customized and applied to
-                  web elements.
-                </p>
-              </div>
-              <div class="mid__container_all_topics">
-                <span class="mid__container_all_topics_title"
-                  >Animated Background</span
-                >
-                <img
-                  class="mid__container_all_topics_title_img"
-                  src="./img/post/Animated_Background.gif"
-                  alt=""
-                />
-                <p class="mid__container_all_topics_paragraph">
-                  <a class="mid__container_all_topics_paragraph_link" href=""
-                    >Wweb.dev</a
-                  >
-                  offers an Animated CSS Background Generator, which allows
-                  users to create and customize animated backgrounds for their
-                  web projects.
-                </p>
-              </div>
-              <div class="mid__container_all_topics">
-                <span class="mid__container_all_topics_title">Spin Kit</span>
-                <img
-                  class="mid__container_all_topics_title_img"
-                  src="./img/post/Spin_Kit.gif"
-                  alt=""
-                />
-                <p class="mid__container_all_topics_paragraph">
-                  <a class="mid__container_all_topics_paragraph_link" href=""
-                    >Spin Kit</a
-                  >
-                  is a collection of CSS loading animations created by Tobias
-                  Ahlin. It offers a range of simple, lightweight, and
-                  customizable spinners that can be easily integrated into web
-                  projects.
-                </p>
-              </div>
-              <div class="mid__container_all_topics">
-                <span class="mid__container_all_topics_title">Flexplorer</span>
-                <img
-                  class="mid__container_all_topics_title_img"
-                  src="./img/post/Flexplorer.png"
-                  alt=""
-                />
-                <p class="mid__container_all_topics_paragraph">
-                  <a class="mid__container_all_topics_paragraph_link" href=""
-                    >Flexplorer</a
-                  >
-                  is an online tool by web developer Bennett Feely that helps
-                  developers learn and experiment with CSS flexbox layouts.
-                  Flexbox lets you build flexible and responsive layouts
-                  quickly.
-                </p>
-              </div>
-              <div class="mid__container_all_topics">
-                <span class="mid__container_all_topics_title"
-                  >Grid Generator</span
-                >
-                <img
-                  class="mid__container_all_topics_title_img"
-                  src="./img/post/Grid_Generator.jfif"
-                  alt=""
-                />
-                <p class="mid__container_all_topics_paragraph">
-                  <a class="mid__container_all_topics_paragraph_link" href=""
-                    >CSS Grid Generator</a
-                  >
-                  is a web-based tool that helps developers create complex grid
-                  layouts using CSS Grid. Grid layouts are a powerful way to
-                  create flexible and responsive designs for web pages.
-                </p>
-              </div>
-              <div class="mid__container_all_topics">
-                <span class="mid__container_all_topics_title"
-                  >Layout Generator</span
-                >
-                <img
-                  class="mid__container_all_topics_title_img"
-                  src="./img/post/Layout_Generator.png"
-                  alt=""
-                />
-                <p class="mid__container_all_topics_paragraph">
-                  <a class="mid__container_all_topics_paragraph_link" href=""
-                    >CSS Layout Generator</a
-                  >
-                  is a web-based tool that allows developers to create and
-                  experiment with CSS layout styles. It provides a visual
-                  interface for designing and customizing layout components.
-                </p>
-              </div>
-              <div class="mid__container_all_topics">
-                <span class="mid__container_all_topics_title"
-                  >Shaddows Brumm</span
-                >
-                <img
-                  class="mid__container_all_topics_title_img"
-                  src="./img/post/Shaddows_Brumm.gif"
-                  alt=""
-                />
-                <p class="mid__container_all_topics_paragraph">
-                  <a class="mid__container_all_topics_paragraph_link" href=""
-                    >Shadows Brumm</a
-                  >
-                  is a web-based tool for generating CSS box-shadow effects. It
-                  provides an easy-to-use interface that allows users to create
-                  complex and visually appealing box-shadow effects using a
-                  variety of parameters and options.
-                </p>
-              </div>
-              <div class="mid__container_all_topics">
-                <span class="mid__container_all_topics_title"
-                  >Glassmorphism</span
-                >
-                <img
-                  class="mid__container_all_topics_title_img"
-                  src="./img/post/Glassmorphism.gif"
-                  alt=""
-                />
-                <p class="mid__container_all_topics_paragraph">
-                  <a class="mid__container_all_topics_paragraph_link" href=""
-                    >Glassmorphism</a
-                  >
-                  is a design trend that uses transparent and blurred glass-like
-                  backgrounds to create a modern, sleek look for user
-                  interfaces. The Glassmorphism Generator is a web-based tool
-                  for creating Glassmorphism-inspired designs and graphics.
-                </p>
-              </div>
-              <div class="mid__container_all_topics">
-                <span class="mid__container_all_topics_title"
-                  >Cubic-Bezier</span
-                >
-                <img
-                  class="mid__container_all_topics_title_img"
-                  src="./img/post/Cubic-Bezier.gif"
-                  alt=""
-                />
-                <p class="mid__container_all_topics_paragraph">
-                  <a class="mid__container_all_topics_paragraph_link" href=""
-                    >Cubic-Bezier</a
-                  >
-                  is a web-based tool that allows users to create custom easing
-                  curves, animation and transition.
-                </p>
-              </div>
-              <div class="mid__container_all_topics">
-                <span class="mid__container_all_topics_title">Haikei</span>
-                <img
-                  class="mid__container_all_topics_title_img"
-                  src="./img/post/Haikei.gif"
-                  alt=""
-                />
-                <p class="mid__container_all_topics_paragraph">
-                  <a class="mid__container_all_topics_paragraph_link" href=""
-                    >Haikei</a
-                  >
-                  is a web-based tool for creating customizable and scalable
-                  vector graphics for use in web design, illustrations, and
-                  other graphic design projects. The app allows users to create
-                  unique designs by combining and modifying various shapes,
-                  colors, and patterns.
-                </p>
-              </div>
-              <div class="mid__container_all_divisor">
-                <hr class="mid__container_all_divisor_bar" />
-              </div>
-              <div class="mid__container_all_conclution">
-                <span class="mid__container_all_conclution_title"
-                  >Conclusion</span
-                >
-                <p class="mid__container_all_conclution_para">
-                  In conclusion, CSS tools are essential for developers who want
-                  to create visually stunning and responsive websites. In
-                  addition, the proper set of tools can significantly improve
-                  productivity, allowing developers to save time and focus on
-                  more critical aspects of their projects.
-                </p>
-                <p class="mid__container_all_conclution_para">
-                  I hope this article has provided valuable insights into some
-                  of the hottest CSS tools available today and will help you
-                  enhance your development skills and create exceptional user
-                  experiences for your audience. Remember to experiment and find
-                  what works best for you, as the right CSS tools can help you
-                  take your projects to the next level.
-                </p>
-              </div>
-              <div class="mid__container_all_visit">
-                <span class="mid__container_all_visit_title">Visit:</span>
-                <div>👨‍💻<a href="">My Portfolio</a></div>
-                <div>🏞️<a href="">My Fiverr</a></div>
-                <div>🌉<a href="">My Github</a></div>
-                <div>🧙‍♂️<a href="">My LinkedIn</a></div>
-              </div>
-              <div class="mid__container_all_tools">
-                <div class="mid__container_all_tools_cont">
-                  <div class="first mid__container_all_tools_cont_part">
-                    <div class="mid__container_all_tools_cont_part_inside">
-                      <span>Tools, Trends and Extenstions (8 Part Series)</span>
-                    </div>
-                  </div>
-                  <div class="mid__container_all_tools_cont_part">
-                    <div class="mid__container_all_tools_cont_part_inside">
-                      <span
-                        class="mid__container_all_tools_cont_part_inside_number"
-                        ><span>1</span></span
-                      >
-                      <span>Juicy Tailwindcss Tools For Everyone</span>
-                    </div>
-                  </div>
-                  <div class="mid__container_all_tools_cont_part">
-                    <div class="mid__container_all_tools_cont_part_inside">
-                      <span
-                        class="mid__container_all_tools_cont_part_inside_number"
-                        ><span>2</span></span
-                      >
-                      <span
-                        >Project Management Tools To Boost Your
-                        Productivity</span
-                      >
-                    </div>
-                  </div>
-                  <div class="mid__container_all_tools_cont_part">
-                    <div class="mid__container_all_tools_cont_part_inside">
-                      <span
-                        class="mid__container_all_tools_cont_part_inside_number"
-                        ><span>...</span></span
-                      >
-                      <span>4 more parts...</span>
-                    </div>
-                  </div>
-                  <div class="mid__container_all_tools_cont_part">
-                    <div class="mid__container_all_tools_cont_part_inside">
-                      <span
-                        class="mid__container_all_tools_cont_part_inside_number"
-                        ><span>7</span></span
-                      >
-                      <span>AI Tools Like Chat GPT</span>
-                    </div>
-                  </div>
-                  <div class="mid__container_all_tools_cont_part last">
-                    <div class="mid__container_all_tools_cont_part_inside">
-                      <span
-                        class="mid__container_all_tools_cont_part_inside_number mid__container_all_tools_cont_part_inside_number_last"
-                        ><span>8</span></span
-                      >
-                      <span>🔥${publicacion.titulo}</span>
-                    </div>
-                  </div>
-                </div>
+            </div>
+          
+              
+              <div class="post_contenido">
+              ${publicacion.contenido}
               </div>
             </div>
           </div>
@@ -504,7 +187,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <div class="mid__container_comments_container_add_comment">
                 <img
                   class="mid__container_comments_container_add_comment_photo"
-                  src="./img/post/bastoChica.webp"
+                  src="${publicacion.usuario.avatar}"
                   alt=""
                 />
                 <textarea

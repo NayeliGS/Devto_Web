@@ -31,7 +31,7 @@
       <nav
         class="header__container_nav container-xxl d-flex justify-content-between navbar navbar-expand-md"
       >
-        <!--Se agrego d-flex justify-content-between navbar navbar-expand-md Nayeli START-->
+        <!--Se agrego d-flex justify-content-between navbar navbar-expand-md START-->
         <div class="header__container_nav_search">
           <!--Hambuger Menu START-->
           <button
@@ -213,44 +213,83 @@
               </button>
             </form>
 
-            <!-- Log in By Email and Password -->
-
-            <form action="#" method="post">
-              <div class="form-group">
-                <label for="email">Email:</label>
-                <input
-                  class="start__sesion-boxes"
-                  type="text"
-                  id="email"
-                  name="email"
-                  placeholder=""
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <label for="password">Password:</label>
-                <input
-                  class="start__sesion-boxes"
-                  type="password"
-                  id="password"
-                  name="password"
-                  placeholder=""
-                  required
-                />
-              </div>
-            </form>
-
-            <form class="flex w-100" action="">
-              <button
-                name="commit"
-                type="submit"
-                value="Continue"
-                class="crayons-btn crayons-btn--l w-100"
-                data-disable-with="Continue"
+            <form class="text__form" action="">
+              <span class="text__position"
+                >Have a password? Continue with your email address</span
               >
-                Continue
-              </button>
             </form>
+
+            <!-- Log in By Email and Password -->
+            <form
+              class="new__users"
+              id="new_user"
+              action="/user/sign_in"
+              accept-charset="UTF-8"
+              method="post"
+            >
+              <form action="#" method="post">
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input
+                    class="start__sesion-boxes"
+                    type="text"
+                    id="email"
+                    name="user[email]"
+                    placeholder=""
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="password">Password:</label>
+                  <input
+                    class="start__sesion-boxes"
+                    type="password"
+                    id="password"
+                    autocomplete="off"
+                    name="password"
+                    placeholder=""
+                    required
+                  />
+                </div>
+
+                <div
+                  class="crayons-field crayons-field--checkbox inline-flex flex-row items-center"
+                >
+                  <input
+                    class="crayons-checkbox"
+                    type="checkbox"
+                    value="1"
+                    checked="checked"
+                    name="user[remember_me]"
+                    id="user_remember_me"
+                  />
+                  <label
+                    class="crayons-field__label fw-normal"
+                    for="user_remember_me"
+                    >Remember me</label
+                  >
+                </div>
+              </form>
+
+              <form class="flex w-100" action="">
+                <button
+                  name="commit"
+                  type="submit"
+                  value="Continue"
+                  class="crayons-btn crayons-btn--l w-100"
+                  data-disable-with="Continue"
+                >
+                  Continue
+                </button>
+              </form>
+            </form>
+
+            <!-- Forgot yoy password?? -->
+            <p class="pt-6 fs-s align-center paragraph__style">
+              <a class="anchor__center" href="/users/password/new">
+                I forgot my password
+              </a>
+            </p>
           </div>
         </div>
       </div>

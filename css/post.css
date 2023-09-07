@@ -229,6 +229,7 @@ body .aside_left__container .aside_left__container_row .aside_left__container_ro
   display: flex;
   align-items: center;
   gap: 12px;
+  padding-top: 22px;
 }
 
 .box_size {
@@ -801,4 +802,9 @@ body .aside_left__container .aside_left__container_row .aside_left__container_ro
     top: -370px !important;
     left: -200px !important;
   }
+}
+.post_contenido {
+  height: 140px;
+  padding-top: 34px;
+  font-size: x-large;
 }/*# sourceMappingURL=post.css.map */
