@@ -73,12 +73,20 @@
         </nav>
 
     </header>
-    <main class="container-lg ">
-        <div class="container-md">
-            <form>
+    <main class="container-lg my-5 ">
+        <div class="container-md ">
+            <form class="p-5 ">
+                <div class="mb-4">
+                    <h5>Create your account</h5>
+                </div>
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <label for="formFile" class="form-label">Profile image</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name <span class="required-data">*</span>
+                    </label>
+                    <input type="email" class="form-control" id="name" aria-describedby="emailHelp">
                     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
                 <div class="mb-3">
