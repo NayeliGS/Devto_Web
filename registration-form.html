@@ -12,7 +12,7 @@
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c4f93396b0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css" />
-
+    <script src="./js/registration-form.js" defer></script>
     <title>Dev Community</title>
 </head>
 
@@ -75,42 +75,26 @@
     </header>
     <main class="container-lg my-5 ">
         <div class="container-md ">
+            <h5>Create your account</h5>
             <form id="reg-form" class="p-5 ">
-                <div class="mb-4">
-                    <h5>Create your account</h5>
-                </div>
-                <div class="mb-3">
-                    <label for="formFile" class="form-label">Profile image</label>
-                    <input class="form-control" type="file" id="formFile">
-                </div>
-                <div class="mb-3">
-                    <label for="name" class="form-label">Name <span class="required-data">*</span>
-                    </label>
-                    <input type="text" class="form-control" id="name" required>
-                </div>
-                <div class="mb-3">
-                    <label for="uname" class="form-label">Username <span class="required-data">*</span>
-                    </label>
-                    <input type="text" class="form-control" id="uname" required>
-                </div>
-                <div class="mb-3">
-                    <label for="Email" class="form-label">Email <span class="required-data">*</span>
-                    </label>
-                    <input type="email" class="form-control" id="Email" required>
-                </div>
-                <div class="mb-3">
-                    <label for="Password" class="form-label">Password <span class="required-data">*</span>
-                    </label>
-                    <input type="password" class="form-control" id="Password" required>
-                </div>
-                <div class="mb-3">
-                    <label for="cpassword" class="form-label">Password Confirmation <span class="required-data">*</span>
-                    </label>
-                    <input type="password" class="form-control" id="cpassword" required>
-                </div>
-                <div class="col-12">
-                    <button class="signup-btn btn btn-primary" type="submit">Sign up</button>
-                </div>
+                <label for="formFile" class="form-label">Profile image</label>
+                <input class="form-control" type="file" id="formFile">
+                <label for="name" class="form-label">Name <span class="required-data">*</span>
+                </label>
+                <input type="text" class="form-control" id="name" required>
+                <label for="uname" class="form-label">Username <span class="required-data">*</span>
+                </label>
+                <input type="text" class="form-control" id="uname" required>
+                <label for="Email" class="form-label">Email <span class="required-data">*</span>
+                </label>
+                <input type="email" class="form-control" id="Email" required>
+                <label for="password" class="form-label">password <span class="required-data">*</span>
+                </label>
+                <input type="password" class="form-control" id="password" required>
+                <label for="cpassword" class="form-label">password Confirmation <span class="required-data">*</span>
+                </label>
+                <input type="password" class="form-control" id="cpassword" required>
+                <button class="signup-btn btn btn-primary" type="submit">Sign up</button>
         </div>
         </form>
         </div>
