@@ -15,6 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(publicacion);
         postHtml = `
           <div class="mid__container_banner_container">
+          <div class="post_button_edit">
+            <button class="btn button_edit_post" type="submit">Edit</button>
+          </div>
             <img
               class="mid__container_banner_container_banner"
               src="${publicacion.imagen}"
