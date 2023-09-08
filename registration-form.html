@@ -75,7 +75,7 @@
     </header>
     <main class="container-lg my-5 ">
         <div class="container-md ">
-            <form class="p-5 ">
+            <form id="reg-form" class="p-5 ">
                 <div class="mb-4">
                     <h5>Create your account</h5>
                 </div>
@@ -86,28 +86,33 @@
                 <div class="mb-3">
                     <label for="name" class="form-label">Name <span class="required-data">*</span>
                     </label>
-                    <input type="email" class="form-control" id="name" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    <input type="text" class="form-control" id="name" required>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    <label for="uname" class="form-label">Username <span class="required-data">*</span>
+                    </label>
+                    <input type="text" class="form-control" id="uname" required>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    <label for="Email" class="form-label">Email <span class="required-data">*</span>
+                    </label>
+                    <input type="email" class="form-control" id="Email" required>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="Password" class="form-label">Password <span class="required-data">*</span>
+                    </label>
+                    <input type="password" class="form-control" id="Password" required>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password confirmation</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="cpassword" class="form-label">Password Confirmation <span class="required-data">*</span>
+                    </label>
+                    <input type="password" class="form-control" id="cpassword" required>
                 </div>
-            </form>
+                <div class="col-12">
+                    <button class="signup-btn btn btn-primary" type="submit">Sign up</button>
+                </div>
+        </div>
+        </form>
         </div>
 
 

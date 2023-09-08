@@ -8,6 +8,7 @@
 @import "new-buttons.css";
 @import "left-login.css";
 @import "login.css";
+@import "registration-form.css";
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

@@ -1,9 +1,14 @@
 .mb-3 {
     padding-left: 2rem;
 }
-.form-label {
+.signup-btn {
+    background-color: rgb(85, 76, 255);
+    border: none;
 }
-.form-control {
+.signup-btn:hover {
+    background-color: rgb(56, 45, 255);
+    border: none;
 }
-.form-text {
+.required-data {
+    color: rgb(255, 75, 75);
 }
